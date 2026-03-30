@@ -83,5 +83,7 @@ C:\Users\Christian\Documents\MyPortfolio\MyPortofolio\obj\Debug\net10.0\ref\MyPo
 C:\Users\Christian\Documents\MyPortfolio\MyPortofolio\obj\Debug\net10.0\scopedcss\Components\Pages\Home.razor.rz.scp.css
 C:\Users\Christian\Documents\MyPortfolio\MyPortofolio\obj\Debug\net10.0\compressed\aoa5a0uqx9-{0}-k6accavl37-k6accavl37.gz
 C:\Users\Christian\Documents\MyPortfolio\MyPortofolio\obj\Debug\net10.0\scopedcss\Components\Pages\About.razor.rz.scp.css
-C:\Users\Christian\Documents\MyPortfolio\MyPortofolio\obj\Debug\net10.0\compressed\wp6qnnk1s3-{0}-jxx2vn7ylx-jxx2vn7ylx.gz
-C:\Users\Christian\Documents\MyPortfolio\MyPortofolio\obj\Debug\net10.0\compressed\8716j9ep2e-{0}-jxx2vn7ylx-jxx2vn7ylx.gz
+C:\Users\Christian\Documents\MyPortfolio\MyPortofolio\obj\Debug\net10.0\MyPortofolio.sourcelink.json
+C:\Users\Christian\Documents\MyPortfolio\MyPortofolio\obj\Debug\net10.0\scopedcss\Components\Pages\Projects.razor.rz.scp.css
+C:\Users\Christian\Documents\MyPortfolio\MyPortofolio\obj\Debug\net10.0\compressed\wp6qnnk1s3-{0}-dii1ttfqim-dii1ttfqim.gz
+C:\Users\Christian\Documents\MyPortfolio\MyPortofolio\obj\Debug\net10.0\compressed\8716j9ep2e-{0}-dii1ttfqim-dii1ttfqim.gz
