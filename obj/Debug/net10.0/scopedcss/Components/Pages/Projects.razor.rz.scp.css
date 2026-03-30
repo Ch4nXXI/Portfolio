@@ -58,9 +58,15 @@
     text-decoration: none;
     display: flex;
 }
+.link[b-wrjuo0p4xh] {
+    text-decoration: none;
+    width: 100%;
+    color: inherit;
+}
 
 
 .btn[b-wrjuo0p4xh] {
+    text-decoration: none;
     padding: 10px;
     border: none;
     border-radius: 10px;

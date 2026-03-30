@@ -58,9 +58,15 @@
     text-decoration: none;
     display: flex;
 }
+.link {
+    text-decoration: none;
+    width: 100%;
+    color: inherit;
+}
 
 
 .btn {
+    text-decoration: none;
     padding: 10px;
     border: none;
     border-radius: 10px;
