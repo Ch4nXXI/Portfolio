@@ -1,0 +1,27 @@
+﻿@inherits LayoutComponentBase
+
+    <video autoplay muted loop playsinline class="bg-video">
+        <source src="images/blue.mp4" type="video/mp4">
+    </video> 
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <a href="mailto:christianpotot21@gmail.com" target="_self">Contact</a>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+<div id="blazor-error-ui" data-nosnippet>
+    An unhandled error has occurred.
+    <a href="." class="reload">Reload</a>
+    <span class="dismiss">🗙</span>
+</div>

@@ -1,0 +1,136 @@
+
+.hero-container {
+    margin-top: 35px;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero-content {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    gap: 90px;
+}
+
+.profile-circle{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+   display: flex;
+    align-items: center;
+    overflow: hidden;
+   
+    justify-content: center; 
+    transition: box-shadow 0.3s ease;
+}
+
+.profile-circle img{
+    width: 245px;
+    height: 245px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 5px 5px 10px rgba(0, 0 , 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-circle:hover {
+    box-shadow: 0 0 30px 10px rgba(81, 70, 232, 0.523);
+}
+
+.profile-circle img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px 4px rgba(59, 130, 246, 0.3), 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.text-section{
+    max-width: 500px;
+}
+
+.text-section h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    color: #e7edf5;
+}
+
+.highlight{
+    color: #2264ce;
+    font-size: 63px;
+    cursor:pointer;
+    transition: color 1.0s ease,;
+}
+
+.highlight:hover{
+    color:#0d407e;
+    cursor:pointer;
+}
+
+
+.role{
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #60a5fa;
+    margin-bottom: 10px;
+}
+
+.name{
+    text-decoration: none;
+   
+}
+
+.text-section p{
+     color: #b0c1f7;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.primary-btn{
+    background: #3b82f6;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.primary-btn:hover {
+    box-shadow: 0 0 15px #00f2fe;
+    transform: scale(1.05);
+}
+
+.secondary-btn{
+    border: 1px solid #66ccff;
+    color: #66ccff;
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.secondary-btn:hover {
+    background: rgba(102, 204, 255, 0.1);
+    box-shadow: 0 0 10px #66ccff;
+}
+
+
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
